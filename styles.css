@@ -1,0 +1,64 @@
+
+.header h1 {
+    font-size: 20px;
+}
+
+h3 {
+    color: blue;
+    font-size: small;
+}
+
+body {
+    height: 100%;
+}
+
+main {
+    overflow: auto;
+    padding-bottom: 50px;
+}
+
+footer {
+    position: relative;
+    background-color: black;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+  
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.side {
+    flex: 30%;
+    background-color: white;
+    padding: 20px;
+    text-align: right;
+}
+  
+.main {
+    flex: 70%; 
+    background-color: white; 
+    padding: 20px; 
+}
+  
+/* Responsive layout */
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+      width: 80%;
+    }
+    .side {
+        background-color: white;
+        padding: 20px;
+        text-align: left;
+    }
+}
+  
+ 
